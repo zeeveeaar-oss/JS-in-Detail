@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h2>The JS string() Method</h2>
+
+    <p>The String() method converts a value to a string.</p>
+
+    <p id="number_result"></p>
+    <p id="string_result"></p>
+
+    <script>
+        var x =84;
+        var y= 78;
+
+        document.getElementById("number_result").innerHTML = x + y;
+        
+        document.getElementById("string_result").innerHTML =  String(x) + String(y);
+
+        //does not add because it is a string it concatenates
+    </script>
+</body>
+</html>
